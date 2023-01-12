@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-	<form action="#" method="POST" >
+	<form action="#" method="POST" id="favColor" >
 		<label for="name"> Name</label>
 		
 		<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
@@ -17,8 +17,9 @@
 		<label for="portfolio"> Portfolio</label>
 		<input type="url" name="name" id="portfolio"  required>
 		<br>
-		<label for="favColor">Choose a color:</label>
-		<select id="favColor">
+		<label  for="favColor">Choose a color:</label>
+		<select name="sele" id="favColor">
+			  <option disabled>--Please choose an option--</option>
 			<option >red</option>
 			<option >yellow</option>
 		</select>
